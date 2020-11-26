@@ -15,6 +15,10 @@ let package = Package(
         .library(
             name: "SwiftUIFlux",
             targets: ["SwiftUIFlux"]),
+        .library(
+            name: "SwiftUIFlux-Dynamic",
+            type: .dynamic,
+            targets: ["SwiftUIFlux"])
     ],
     targets: [
         .target(
